@@ -4,9 +4,66 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Banana Spaek</title>
+    <style>
+        #txt-input{
+            height: 10rem;
+            width: 70%;
+            background-color: lightyellow;
+            font-size: 1.5rem;
+
+        }
+        #txt-output{
+            height: 10rem;
+            width: 70%;
+            background-color: lightyellow;
+            font-size: 1.5rem;
+
+        }
+        body{
+            background: url(https://i.postimg.cc/856nk7bb/fTKnpB.jpg);
+            height: 100%;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode';
+            margin: 0;
+            padding: 0;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+        }
+        #mydiv{
+            background-color: lightyellow;
+            height: 6rem;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            margin-top: -22px;
+        }
+        label{
+            font-size: 2rem;
+            color:black;
+            background-color: lightyellow;
+            padding: 5px;
+            border-radius: 15px;
+        }
+        button{
+            background-color: lightyellow;
+            padding: 1rem;
+            border-radius: 20px;
+            width: 14rem;
+            font-size: 2rem;
+        }
+    </style>
 </head>
 <body>
-    
+    <div id="mydiv"><br><h1>Banana Speak</h1></div><br><br>
+    <label>Input your text here</label><br><br>
+    <textarea id="txt-input" placeholder="enter here something..."></textarea><br><br>
+    <button id="btn-translate">Translate</button><br><br>
+    <label>Your translated text will reflect here</label><br><br>
+    <textarea id="txt-output"></textarea>
+    <script src="app.js" type="text/javascript"></script>
 </body>
 </html>
